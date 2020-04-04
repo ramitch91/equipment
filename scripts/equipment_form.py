@@ -202,6 +202,9 @@ def main():
         )
 
         conn.commit()
+
+        TODO: "Figure out why info will not go into the sqlite database"
+
         print("Entering data into the 'FleetWO' table of the Equipment Database...")
         row: int
         for row in range(0, len(fleet_work_orders["FleetWO"])):
